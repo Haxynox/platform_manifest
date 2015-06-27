@@ -4,8 +4,11 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
+  <remote  name="github"
+           fetch="ssh://git@github.com/haxynox" />
+
   <remote  name="haxynox"
-           fetch="git://github.com/haxynox" />
+           fetch="https://github.com/haxynox" />
 
   <default revision="refs/tags/android-5.1.1_r5"
            remote="aosp"
@@ -503,7 +506,7 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="haxynox" revision="aosp-5.1" />
   
 <!-- Haxynox hardware/* -->
-  <project path="hardware/broadcom/wlan" name="android_broadcom_wlan" remote="haxynox" revision="aosp-5.1" />
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="haxynox" revision="aosp-5.1" />
   <project path="hardware/ril" name="android_hardware_ril" remote="haxynox" revision="aosp-5.1" />
   <project path="hardware/samsung" name="android_hardware_samsung" remote="haxynox" revision="aosp-5.1" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="haxynox" revision="aosp-5.1" />
