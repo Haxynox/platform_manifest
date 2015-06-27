@@ -16,7 +16,6 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
-  <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
@@ -267,8 +266,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -277,7 +274,6 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
@@ -294,7 +290,6 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
@@ -305,7 +300,6 @@
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
@@ -321,7 +315,6 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
@@ -339,7 +332,6 @@
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
-  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
@@ -474,7 +466,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="android_system_core" remote="haxynox" revision="aosp-5.1" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
@@ -501,9 +492,28 @@
   <project path="device/samsung/n7100" name="device_samsung_n7100" remote="haxynox" revision="aosp-5.1" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="haxynox" revision="aosp-5.1" />
   <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" remote="haxynox" revision="aosp-5.1" />
+  
+<!-- Haxynox Vendor blobs -->
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="haxynox" revision="aosp-5.1"/>
+  
+<!-- frameworks/* -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="haxynox" revision="aosp-5.1" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="haxynox" revision="aosp-5.1" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="haxynox" revision="aosp-5.1" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="haxynox" revision="aosp-5.1" />
+  
+<!-- Haxynox hardware/* -->
+  <project path="hardware/broadcom/wlan" name="android_broadcom_wlan" remote="haxynox" revision="aosp-5.1" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="haxynox" revision="aosp-5.1" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="haxynox" revision="aosp-5.1" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="haxynox" revision="aosp-5.1" />
+  
+<!-- bionic -->
+  <project path="bionic" name="android_bionic" remote="haxynox" revision="aosp-5.1" />
 
-<!-- Haxynox hardware paths -->
-  <project path="kernel/samsung/smdk4412" name="kernel_samsung_n7100" remote="haxynox" revision="aosp-5.1" />
-  <project path="hardware/samsung" name="hardware_samsung" remote="haxynox" revision="aosp-5.1"/>
-
+<!-- kernel -->
+  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="haxynox" revision="aosp-5.1" />
+  
+<!-- system/core -->
+  <project path="system/core" name="android_system_core" remote="haxynox" revision="aosp-5.1" groups="pdk" />
 </manifest>
