@@ -516,4 +516,8 @@
   
 <!-- system/core -->
   <project path="system/core" name="android_system_core" remote="haxynox" revision="aosp-5.1" groups="pdk" />
+
+<!-- misc -->
+  <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="haxynox" revision="aosp-5.1" />
+    
 </manifest>
