@@ -302,7 +302,6 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
@@ -507,6 +506,7 @@
   
 <!-- Haxynox hardware/* -->
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="haxynox" revision="aosp-5.1" />
+  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="haxynox" revision="aosp-5.1" />
   <project path="hardware/ril" name="android_hardware_ril" remote="haxynox" revision="aosp-5.1" />
   <project path="hardware/samsung" name="android_hardware_samsung" remote="haxynox" revision="aosp-5.1" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="haxynox" revision="aosp-5.1" />
