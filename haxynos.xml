@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="platform/frameworks/webview" />
+  <project path="frameworks/webview" name="android_frameworks_webview" remote="haxynox" revision="aosp-5.1" />
+  <remove-project name="device_samsung_smdk4412-common" />
+  <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" remote="haxynox" revision="aosp-5.1-chromium" />
+</manifest>
