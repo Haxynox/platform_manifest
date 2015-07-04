@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+ <manifest>
   <remove-project name="platform/frameworks/webview" />
   <project path="frameworks/webview" name="android_frameworks_webview" remote="haxynox" revision="aosp-5.1" />
   <remove-project name="device_samsung_smdk4412-common" />
   <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" remote="haxynox" revision="aosp-5.1-chromium" />
+  <remove-project name="android_frameworks_av" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="haxynox" revision="test" />
+  <remove-project name="platform/frameworks/opt/net/ims" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="haxynox" revision="aosp-5.1" />
 </manifest>
