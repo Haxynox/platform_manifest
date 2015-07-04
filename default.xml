@@ -10,7 +10,7 @@
   <remote  name="haxynox"
            fetch="https://github.com/haxynox" />
 
-  <default revision="refs/tags/android-5.1.1_r6"
+  <default revision="refs/tags/android-5.1.1_r5"
            remote="aosp"
            sync-j="4" />
 
@@ -499,7 +499,7 @@
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="haxynox" revision="aosp-5.1"/>
   
 <!-- frameworks/* -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="haxynox" revision="aosp-5.1" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="haxynox" revision="test" />
   <project path="frameworks/base" name="android_frameworks_base" remote="haxynox" revision="aosp-5.1" />
   <project path="frameworks/native" name="android_frameworks_native" remote="haxynox" revision="aosp-5.1" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="haxynox" revision="aosp-5.1" />
