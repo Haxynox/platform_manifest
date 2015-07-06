@@ -5,10 +5,12 @@
            fetch="https://android.googlesource.com" />
 
   <remote  name="github"
-           fetch="ssh://git@github.com/haxynox" />
+           fetch="ssh://git@github.com/haxynox" 
+           revision="refs/heads/aosp-5.1" />
 
   <remote  name="haxynox"
-           fetch="https://github.com/haxynox" />
+           fetch="https://github.com/haxynox"
+           revision="refs/heads/aosp-5.1" />
 
   <default revision="refs/tags/android-5.1.1_r5"
            remote="aosp"
