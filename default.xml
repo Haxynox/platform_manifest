@@ -4,19 +4,19 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
-  <remote  name="github"
-           fetch="ssh://git@github.com/haxynox" 
-           revision="refs/heads/aosp-5.1" />
+  <remote  revision="refs/heads/aosp-5.1" 
+           name="github"
+           fetch="ssh://git@github.com/haxynox" />
 
-  <remote  name="haxynox"
-           fetch="https://github.com/haxynox"
-           revision="refs/heads/aosp-5.1" />
+  <remote revision="refs/heads/aosp-5.1"
+           name="haxynox"
+           fetch="https://github.com/haxynox" />
 
   <default revision="refs/tags/android-5.1.1_r5"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="haxynox_build" remote="haxynox" revision="aosp-5.1" groups="pdk,tradefed" >
+  <project path="build" name="haxynox_build" remote="haxynox" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -491,38 +491,38 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="platform_manifest" name="platform_manifest" remote="haxynox" revision="aosp-5.1" />
+  <project path="platform_manifest" name="platform_manifest" remote="haxynox" />
 <!-- Haxynox device trees -->
-  <project path="device/samsung/n7100" name="device_samsung_n7100" remote="haxynox" revision="aosp-5.1" />
-  <project path="device/samsung/i9300" name="device_samsung_i9300" remote="haxynox" revision="aosp-5.1" />
-  <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" remote="haxynox" revision="aosp-5.1" />
+  <project path="device/samsung/n7100" name="device_samsung_n7100" remote="haxynox" />
+  <project path="device/samsung/i9300" name="device_samsung_i9300" remote="haxynox" />
+  <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" remote="haxynox" />
   
 <!-- Haxynox Vendor blobs -->
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="haxynox" revision="aosp-5.1"/>
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="haxynox" />
   
 <!-- frameworks/* -->
   <project path="frameworks/av" name="android_frameworks_av" remote="haxynox" revision="test" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="haxynox" revision="aosp-5.1" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="haxynox" revision="aosp-5.1" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="haxynox" revision="aosp-5.1" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="haxynox" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="haxynox" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="haxynox" />
   
 <!-- Haxynox hardware/* -->
-  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="haxynox" revision="aosp-5.1" />
-  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="haxynox" revision="aosp-5.1" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="haxynox" revision="aosp-5.1" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="haxynox" revision="aosp-5.1" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="haxynox" revision="aosp-5.1" />
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="haxynox" />
+  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="haxynox" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="haxynox" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="haxynox" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="haxynox" />
   
 <!-- bionic -->
-  <project path="bionic" name="android_bionic" remote="haxynox" revision="aosp-5.1" />
+  <project path="bionic" name="android_bionic" remote="haxynox" />
 
 <!-- kernel -->
-  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="haxynox" revision="aosp-5.1" />
+  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="haxynox" />
   
 <!-- system/core -->
-  <project path="system/core" name="android_system_core" remote="haxynox" revision="aosp-5.1" groups="pdk" />
+  <project path="system/core" name="android_system_core" remote="haxynox" groups="pdk" />
 
 <!-- misc -->
-  <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="haxynox" revision="aosp-5.1" />
+  <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="haxynox" />
     
 </manifest>
