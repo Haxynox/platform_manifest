@@ -500,7 +500,7 @@
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="haxynox" />
   
 <!-- frameworks/* -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="haxynox" revision="test" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="haxynox" />
   <project path="frameworks/base" name="android_frameworks_base" remote="haxynox" />
   <project path="frameworks/native" name="android_frameworks_native" remote="haxynox" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="haxynox" />
