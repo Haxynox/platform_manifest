@@ -515,7 +515,7 @@
   <project path="bionic" name="android_bionic" remote="haxynox" />
 
 <!-- kernel -->
-  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="haxynox" />
+  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="haxynox" revision="haxynox" />
   
 <!-- system/core -->
   <project path="system/core" name="android_system_core" remote="haxynox" groups="pdk" />
