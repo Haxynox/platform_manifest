@@ -469,7 +469,7 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <project path="external/stlport" name="android_external_stlport" remote="haxynox" />
+  <project path="external/stlport" name="android_external_stlport" remote="haxynox" revision="Mmm"/>
   <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" remote="haxynox" />
   
   <project path="platform_manifest" name="platform_manifest" remote="haxynox" />
