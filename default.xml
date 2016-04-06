@@ -4,11 +4,11 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
-  <remote  revision="refs/heads/Mmm" 
+  <remote  revision="refs/heads/aosp-6.0" 
            name="github"
            fetch="ssh://git@github.com/haxynox" />
 
-  <remote revision="refs/heads/Mmm"
+  <remote revision="refs/heads/aosp-6.0"
            name="haxynox"
            fetch="https://github.com/haxynox" />
            
