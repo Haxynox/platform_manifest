@@ -475,12 +475,12 @@
   <project path="platform_manifest" name="platform_manifest" remote="haxynox" />
   
 <!-- Haxynox device trees -->
-  <project path="device/samsung/n7100" name="device_samsung_n7100" remote="haxynox" />
-  <project path="device/samsung/i9300" name="device_samsung_i9300" remote="haxynox" />
-  <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" remote="haxynox" />
+  <project path="device/samsung/n7100" name="device_samsung_n7100" remote="haxynox" revision="Mmm" />
+  <project path="device/samsung/i9300" name="device_samsung_i9300" remote="haxynox" revision="Mmm"/>
+  <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" remote="haxynox" revision="Mmm"/>
   
 <!-- Haxynox Vendor blobs -->
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="haxynox" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="haxynox" revision="Mmm"/>
 
 <!-- frameworks/* -->
   <project path="frameworks/av" name="android_frameworks_av" remote="haxynox" />
@@ -493,12 +493,12 @@
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="haxynox" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="haxynox" />
   <project path="hardware/ril" name="android_hardware_ril" remote="haxynox" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="haxynox" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="haxynox" revision="Mmm"/>
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="haxynox" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="haxynox" />
   
 <!-- kernel -->
-  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="haxynox" />
+  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="haxynox" revision="Mmm"/>
   
 <!-- system/* -->
   <project path="system/core" name="android_system_core" remote="haxynox" groups="pdk" />
