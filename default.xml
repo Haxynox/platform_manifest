@@ -488,7 +488,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="haxynox" />
   <project path="frameworks/native" name="android_frameworks_native" remote="haxynox" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="haxynox" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="haxynox" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="haxynox" />
   
 <!-- Haxynox hardware/* -->
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="haxynox" />
