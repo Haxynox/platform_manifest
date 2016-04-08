@@ -489,7 +489,7 @@
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="haxynox" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="haxynox" />
   <project path="hardware/ril" name="android_hardware_ril" remote="haxynox" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="haxynox" revision="Mmm"/>
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="haxynox" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="haxynox" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="haxynox" />
   
