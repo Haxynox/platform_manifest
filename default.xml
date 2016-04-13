@@ -474,6 +474,7 @@
   
 <!-- Vendor blobs -->
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="haxynox" revision="Mmm"/>
+  <project path="vendor/haxynox" name="android_vendor_haxynox" remote="haxynox" revision="aosp-6.0"/>
 
 <!-- Frameworks/* -->
   <project path="frameworks/av" name="android_frameworks_av" remote="haxynox" />
