@@ -462,6 +462,7 @@
   <!-- HAXYNOX BEGIN -->
   <project path="external/stlport" name="android_external_stlport" remote="haxynox" revision="Mmm"/>
   <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" remote="haxynox" revision="Mmm" />
+  <project path="external/exfat" name="android_external_exfat" remote="Haxynox" />
   
   <project path="platform_manifest" name="platform_manifest" remote="haxynox" />
   
