@@ -4,13 +4,11 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
-  <remote  revision="refs/heads/aosp-6.0" 
-           name="github"
-           fetch="ssh://git@github.com/haxynox" />
+  <remote  name="github"
+           fetch="git://github.com/" />
 
-  <remote revision="refs/heads/aosp-6.0"
-           name="haxynox"
-           fetch="https://github.com/haxynox" />
+  <remote  name="haxynox"
+           fetch="git://github.com/haxynox" />
            
   <default revision="refs/tags/android-6.0.1_r46"
            remote="aosp"
@@ -461,7 +459,7 @@
   <!-- HAXYNOX BEGIN -->
   <project path="external/stlport" name="android_external_stlport" remote="haxynox" revision="Mmm"/>
   <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" remote="haxynox" revision="Mmm" />
-  <project path="external/exfat" name="android_external_exfat" remote="Haxynox" />
+  <project path="external/exfat" name="android_external_exfat" remote="haxynox" />
   
   <project path="platform_manifest" name="platform_manifest" remote="haxynox" />
   
