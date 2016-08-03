@@ -5,6 +5,9 @@ Project Haxynox
 
 	repo init -u git://github.com/Haxynox/platform_manifest.git -b aosp-6.0
 
+In case you want to build an AOSP ROM by yourself
+-------------------------------------------------
+https://github.com/Haxynox/AOSP-based-ROM-guide
 
 Get off my lawn
 ---------------
