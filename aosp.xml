@@ -8,9 +8,6 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="haxynox_build" remote="haxynox" groups="pdk" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
