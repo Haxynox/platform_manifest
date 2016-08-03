@@ -7,8 +7,9 @@
   <remote  name="github"
            fetch="git://github.com/" />
 
-  <remote  name="haxynox"
-           fetch="git://github.com/haxynox" />
+  <remote revision="refs/heads/aosp-6.0"
+           name="haxynox"
+           fetch="https://github.com/haxynox" />
            
   <default revision="refs/tags/android-6.0.1_r46"
            remote="aosp"
@@ -28,38 +29,38 @@
   
 <!-- Vendor blobs -->
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="haxynox" revision="Mmm"/>
-  <project path="vendor/haxynox" name="android_vendor_haxynox" remote="haxynox" revision="aosp-6.0"/>
+  <project path="vendor/haxynox" name="android_vendor_haxynox" remote="haxynox" />
 
 <!-- Frameworks/* -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="haxynox" revision="aosp-6.0"/>
-  <project path="frameworks/base" name="android_frameworks_base" remote="haxynox" revision="aosp-6.0"/>
-  <project path="frameworks/native" name="android_frameworks_native" remote="haxynox" revision="aosp-6.0"/>
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="haxynox" revision="aosp-6.0"/>
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="haxynox" revision="aosp-6.0"/>
+  <project path="frameworks/av" name="android_frameworks_av" remote="haxynox" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="haxynox" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="haxynox" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="haxynox" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="haxynox" />
   
 <!-- Hardware/* -->
-  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="haxynox" revision="aosp-6.0"/>
-  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="haxynox" revision="aosp-6.0"/>
-  <project path="hardware/ril" name="android_hardware_ril" remote="haxynox" revision="aosp-6.0" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="haxynox" revision="aosp-6.0"/>
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="haxynox" revision="aosp-6.0"/>
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="haxynox" revision="aosp-6.0"/>
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="haxynox" />
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="haxynox" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="haxynox"  />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="haxynox" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="haxynox" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="haxynox" />
   
 <!-- Kernel -->
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="haxynox" revision="Mmm"/>
   
 <!-- System/* -->
-  <project path="system/core" name="android_system_core" remote="haxynox" revision="aosp-6.0"/>
-  <project path="system/extras" name="android_system_extras" remote="haxynox" revision="aosp-6.0"/>
-  <project path="system/vold" name="android_system_vold" remote="haxynox" revision="aosp-6.0"/>
+  <project path="system/core" name="android_system_core" remote="haxynox" />
+  <project path="system/extras" name="android_system_extras" remote="haxynox" />
+  <project path="system/vold" name="android_system_vold" remote="haxynox" />
 
 <!-- Misc -->
   <project path="art" name="android_art" remote="haxynox" />
   <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="haxynox" revision="Mmm"/>
-  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="haxynox" revision="aosp-6.0"/>
-  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="haxynox" revision="aosp-6.0"/>
-  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="haxynox" revision="aosp-6.0"/>
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="haxynox" revision="aosp-6.0"/>
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="haxynox" revision="aosp-6.0"/>
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="haxynox" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="haxynox" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="haxynox" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="haxynox" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="haxynox" />
 
 </manifest>
