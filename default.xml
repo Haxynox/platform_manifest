@@ -10,11 +10,7 @@
   <remote revision="refs/heads/aosp-6.0"
            name="haxynox"
            fetch="https://github.com/haxynox" />
-           
-  <default revision="refs/tags/android-6.0.1_r46"
-           remote="aosp"
-           sync-j="4" />
-           
+
   <!-- HAXYNOX BEGIN -->
   <project path="build" name="haxynox_build" remote="haxynox" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
